@@ -1,0 +1,20 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="30" cy="30" r="28" fill="#198754" opacity="0.1"/>
+  
+  <!-- Main icon - Investment/Growth symbol -->
+  <path d="M20 35 L25 30 L30 33 L35 25 L40 28" stroke="#198754" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="25" cy="30" r="2" fill="#198754"/>
+  <circle cx="30" cy="33" r="2" fill="#198754"/>
+  <circle cx="35" cy="25" r="2" fill="#198754"/>
+  <circle cx="40" cy="28" r="2" fill="#198754"/>
+  
+  <!-- Arrow up (growth) -->
+  <path d="M38 22 L40 20 L42 22" stroke="#198754" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text CIA -->
+  <text x="55" y="32" font-family="'Playfair Display', serif" font-size="24" font-weight="700" fill="#198754">CIA</text>
+  
+  <!-- Text Invest -->
+  <text x="55" y="45" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#6c757d">Invest</text>
+</svg>
