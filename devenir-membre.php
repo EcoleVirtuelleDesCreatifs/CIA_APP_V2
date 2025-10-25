@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Page Devenir Membre - CIA Invest
  * 
@@ -17,233 +18,237 @@ $page_title = 'Devenir Membre';
 include 'partials/header.php';
 ?>
 
-    <!-- Hero Section -->
-    <section class="page-hero">
-        <div class="container">
-            <div class="row align-items-center min-vh-100">
-                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
-                    <span class="hero-badge">Devenir Membre</span>
-                    <h1 class="hero-title">Rejoignez le Réseau Exclusif</h1>
-                    <p class="hero-description">En tant que membre, vous accédez à des opportunités uniques de networking, de partenariats stratégiques et de financement. Rejoignez notre communauté d'entrepreneurs et d'investisseurs passionnés pour accélérer votre croissance et contribuer à l'essor de projets ambitieux. Profitez d'avantages exclusifs et faites partie de l'écosystème qui façonne le futur.</p>
-                </div>
+<!-- Hero Section -->
+<section class="page-hero">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+
+            <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                <br />
+                <br />
+                <br />
+                <span class="hero-badge">Devenir Membre</span>
+                <h1 class="hero-title">Rejoignez le Réseau Exclusif</h1>
+                <p class="hero-description">En tant que membre, vous accédez à des opportunités uniques de networking, de partenariats stratégiques et de financement. Rejoignez notre communauté d'entrepreneurs et d'investisseurs passionnés pour accélérer votre croissance et contribuer à l'essor de projets ambitieux. Profitez d'avantages exclusifs et faites partie de l'écosystème qui façonne le futur.</p>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <a href="#pricing">
-                <i class="bi bi-chevron-down"></i>
-            </a>
+    </div>
+    <div class="scroll-indicator">
+        <a href="#pricing">
+            <i class="bi bi-chevron-down"></i>
+        </a>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="pricing-section py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-badge">Nos Formules</span>
+            <h2 class="section-title">Choisissez votre niveau d'adhésion</h2>
+            <p class="section-description">Des formules adaptées à vos besoins et à vos ambitions</p>
         </div>
-    </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing-section py-5">
-        <div class="container">
-            <div class="section-header text-center mb-5" data-aos="fade-up">
-                <span class="section-badge">Nos Formules</span>
-                <h2 class="section-title">Choisissez votre niveau d'adhésion</h2>
-                <p class="section-description">Des formules adaptées à vos besoins et à vos ambitions</p>
-            </div>
-            
-            <div class="row g-4">
-                <!-- Silver Plan -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="pricing-card">
-                        <div class="pricing-badge">Silver</div>
-                        <div class="pricing-icon">
-                            <i class="bi bi-star"></i>
-                        </div>
-                        <div class="pricing-price">
-                            <span class="currency">$</span>
-                            <span class="amount">500</span>
-                            <span class="period">/an</span>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="bi bi-check-circle-fill"></i> Publication d'un (1) projet sur la plateforme</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Demande de rendez-vous en ligne avec la CIA</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Accès au calendrier des événements validés</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Intégration d'une messagerie dans l'espace membre</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Choix du type d'investisseurs (Obligataires ou Actionnaires)</li>
-                        </ul>
-                        <div class="pricing-footer">
-                            <p class="cotisation">Abonnement annuel</p>
-                            <a href="inscription.php?plan=silver" class="btn btn-outline-primary btn-lg w-100">S'inscrire</a>
-                        </div>
+        <div class="row g-4">
+            <!-- Silver Plan -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="pricing-card">
+                    <div class="pricing-badge">Silver</div>
+                    <div class="pricing-icon">
+                        <i class="bi bi-star"></i>
                     </div>
-                </div>
-
-                <!-- Gold Plan -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="pricing-card featured">
-                        <div class="pricing-badge popular">Gold</div>
-                        <div class="popular-label">Populaire</div>
-                        <div class="pricing-icon">
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <div class="pricing-price">
-                            <span class="currency">$</span>
-                            <span class="amount">1000</span>
-                            <span class="period">/an</span>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="bi bi-check-circle-fill"></i> Publication de deux (2) projets sur la plateforme</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Demande de rendez-vous en ligne avec la CIA</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Accès au calendrier des événements validés</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Intégration d'une messagerie dans l'espace membre</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Accès à des événements en ligne et en présentiel</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Accès à des formations en ligne et en présentiel</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Choix du type d'investisseurs (Obligataires ou Actionnaires)</li>
-                        </ul>
-                        <div class="pricing-footer">
-                            <p class="cotisation">Abonnement annuel</p>
-                            <a href="inscription.php?plan=gold" class="btn btn-primary btn-lg w-100">S'inscrire</a>
-                        </div>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">500</span>
+                        <span class="period">/an</span>
                     </div>
-                </div>
-
-                <!-- Platinum Plan -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="pricing-card">
-                        <div class="pricing-badge premium">Platinum</div>
-                        <div class="pricing-icon">
-                            <i class="bi bi-gem"></i>
-                        </div>
-                        <div class="pricing-price">
-                            <span class="currency">$</span>
-                            <span class="amount">1500</span>
-                            <span class="period">/an</span>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="bi bi-check-circle-fill"></i> Publication de trois (3) projets sur la plateforme</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Demande de rendez-vous en ligne avec la CIA</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Accès au calendrier des événements validés</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Intégration d'une messagerie dans l'espace membre</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Accès à des événements en ligne et en présentiel</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Accès à des formations en ligne et en présentiel</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Baromètre et évolution du financement ou des fonds recueillis</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Choix du type d'investisseurs (Obligataires ou Actionnaires)</li>
-                        </ul>
-                        <div class="pricing-footer">
-                            <p class="cotisation">Abonnement annuel</p>
-                            <a href="inscription.php?plan=platinum" class="btn btn-outline-primary btn-lg w-100">S'inscrire</a>
-                        </div>
+                    <ul class="pricing-features">
+                        <li><i class="bi bi-check-circle-fill"></i> Publication d'un (1) projet sur la plateforme</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Demande de rendez-vous en ligne avec la CIA</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Accès au calendrier des événements validés</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Intégration d'une messagerie dans l'espace membre</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Choix du type d'investisseurs (Obligataires ou Actionnaires)</li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <p class="cotisation">Abonnement annuel</p>
+                        <a href="inscription.php?plan=silver" class="btn btn-outline-primary btn-lg w-100">S'inscrire</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Comparison Section -->
-    <section class="comparison-section py-5">
-        <div class="container">
-            <div class="section-header text-center mb-5" data-aos="fade-up">
-                <span class="section-badge">Comparaison</span>
-                <h2 class="section-title">Tableau comparatif des formules</h2>
-                <p class="section-description">Comparez les fonctionnalités pour choisir la formule qui vous convient</p>
+            <!-- Gold Plan -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="pricing-card featured">
+                    <div class="pricing-badge popular">Gold</div>
+                    <div class="popular-label">Populaire</div>
+                    <div class="pricing-icon">
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">1000</span>
+                        <span class="period">/an</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="bi bi-check-circle-fill"></i> Publication de deux (2) projets sur la plateforme</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Demande de rendez-vous en ligne avec la CIA</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Accès au calendrier des événements validés</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Intégration d'une messagerie dans l'espace membre</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Accès à des événements en ligne et en présentiel</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Accès à des formations en ligne et en présentiel</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Choix du type d'investisseurs (Obligataires ou Actionnaires)</li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <p class="cotisation">Abonnement annuel</p>
+                        <a href="inscription.php?plan=gold" class="btn btn-primary btn-lg w-100">S'inscrire</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="comparison-table-wrapper" data-aos="fade-up">
-                        <table class="table comparison-table">
-                            <thead>
-                                <tr>
-                                    <th>Fonctionnalités</th>
-                                    <th class="text-center">Silver</th>
-                                    <th class="text-center featured-col">Gold</th>
-                                    <th class="text-center">Platinum</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><strong>Prix annuel</strong></td>
-                                    <td class="text-center">500$</td>
-                                    <td class="text-center featured-col"><strong>1000$</strong></td>
-                                    <td class="text-center">1500$</td>
-                                </tr>
-                                <tr>
-                                    <td>Nombre de projets publiables</td>
-                                    <td class="text-center">1 projet</td>
-                                    <td class="text-center featured-col">2 projets</td>
-                                    <td class="text-center">3 projets</td>
-                                </tr>
-                                <tr>
-                                    <td>Rendez-vous en ligne avec la CIA</td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                </tr>
-                                <tr>
-                                    <td>Calendrier des événements validés</td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                </tr>
-                                <tr>
-                                    <td>Messagerie dans l'espace membre</td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                </tr>
-                                <tr>
-                                    <td>Événements en ligne et présentiel</td>
-                                    <td class="text-center"><i class="bi bi-x-circle-fill text-muted"></i></td>
-                                    <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                </tr>
-                                <tr>
-                                    <td>Formations en ligne et présentiel</td>
-                                    <td class="text-center"><i class="bi bi-x-circle-fill text-muted"></i></td>
-                                    <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                </tr>
-                                <tr>
-                                    <td>Baromètre et évolution du financement</td>
-                                    <td class="text-center"><i class="bi bi-x-circle-fill text-muted"></i></td>
-                                    <td class="text-center featured-col"><i class="bi bi-x-circle-fill text-muted"></i></td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                </tr>
-                                <tr>
-                                    <td>Choix type d'investisseurs (Obligataires/Actionnaires)</td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                    <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class="text-center">
-                                        <a href="inscription.php?plan=silver" class="btn btn-outline-primary">Choisir Silver</a>
-                                    </td>
-                                    <td class="text-center featured-col">
-                                        <a href="inscription.php?plan=gold" class="btn btn-primary">Choisir Gold</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="inscription.php?plan=platinum" class="btn btn-outline-primary">Choisir Platinum</a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <!-- Platinum Plan -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="pricing-card">
+                    <div class="pricing-badge premium">Platinum</div>
+                    <div class="pricing-icon">
+                        <i class="bi bi-gem"></i>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="currency">$</span>
+                        <span class="amount">1500</span>
+                        <span class="period">/an</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="bi bi-check-circle-fill"></i> Publication de trois (3) projets sur la plateforme</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Demande de rendez-vous en ligne avec la CIA</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Accès au calendrier des événements validés</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Intégration d'une messagerie dans l'espace membre</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Accès à des événements en ligne et en présentiel</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Accès à des formations en ligne et en présentiel</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Baromètre et évolution du financement ou des fonds recueillis</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Choix du type d'investisseurs (Obligataires ou Actionnaires)</li>
+                    </ul>
+                    <div class="pricing-footer">
+                        <p class="cotisation">Abonnement annuel</p>
+                        <a href="inscription.php?plan=platinum" class="btn btn-outline-primary btn-lg w-100">S'inscrire</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- CTA Section -->
-    <section class="cta-section py-5">
-        <div class="container">
-            <div class="cta-wrapper" data-aos="fade-up">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">
-                        <h2 class="cta-title">Prêt à rejoindre notre réseau ?</h2>
-                        <p class="cta-description">Devenez membre dès aujourd'hui et accédez à un réseau exclusif d'investisseurs et d'entrepreneurs</p>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a href="#pricing" class="btn btn-light btn-lg">Choisir une formule <i class="bi bi-arrow-right ms-2"></i></a>
-                    </div>
+<!-- Comparison Section -->
+<section class="comparison-section py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+            <span class="section-badge">Comparaison</span>
+            <h2 class="section-title">Tableau comparatif des formules</h2>
+            <p class="section-description">Comparez les fonctionnalités pour choisir la formule qui vous convient</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="comparison-table-wrapper" data-aos="fade-up">
+                    <table class="table comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Fonctionnalités</th>
+                                <th class="text-center">Silver</th>
+                                <th class="text-center featured-col">Gold</th>
+                                <th class="text-center">Platinum</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Prix annuel</strong></td>
+                                <td class="text-center">500$</td>
+                                <td class="text-center featured-col"><strong>1000$</strong></td>
+                                <td class="text-center">1500$</td>
+                            </tr>
+                            <tr>
+                                <td>Nombre de projets publiables</td>
+                                <td class="text-center">1 projet</td>
+                                <td class="text-center featured-col">2 projets</td>
+                                <td class="text-center">3 projets</td>
+                            </tr>
+                            <tr>
+                                <td>Rendez-vous en ligne avec la CIA</td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Calendrier des événements validés</td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Messagerie dans l'espace membre</td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Événements en ligne et présentiel</td>
+                                <td class="text-center"><i class="bi bi-x-circle-fill text-muted"></i></td>
+                                <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Formations en ligne et présentiel</td>
+                                <td class="text-center"><i class="bi bi-x-circle-fill text-muted"></i></td>
+                                <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Baromètre et évolution du financement</td>
+                                <td class="text-center"><i class="bi bi-x-circle-fill text-muted"></i></td>
+                                <td class="text-center featured-col"><i class="bi bi-x-circle-fill text-muted"></i></td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Choix type d'investisseurs (Obligataires/Actionnaires)</td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center featured-col"><i class="bi bi-check-circle-fill text-success"></i></td>
+                                <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="text-center">
+                                    <a href="inscription.php?plan=silver" class="btn btn-outline-primary">Choisir Silver</a>
+                                </td>
+                                <td class="text-center featured-col">
+                                    <a href="inscription.php?plan=gold" class="btn btn-primary">Choisir Gold</a>
+                                </td>
+                                <td class="text-center">
+                                    <a href="inscription.php?plan=platinum" class="btn btn-outline-primary">Choisir Platinum</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section py-5">
+    <div class="container">
+        <div class="cta-wrapper" data-aos="fade-up">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="cta-title">Prêt à rejoindre notre réseau ?</h2>
+                    <p class="cta-description">Devenez membre dès aujourd'hui et accédez à un réseau exclusif d'investisseurs et d'entrepreneurs</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#pricing" class="btn btn-light btn-lg">Choisir une formule <i class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 // Inclure le footer

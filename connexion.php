@@ -24,10 +24,7 @@ include 'partials/header.php';
             <div class="col-lg-5 col-md-7" data-aos="fade-up">
                 <div class="login-card">
                     <div class="login-header text-center mb-4">
-                        <div class="login-logo mb-3">
-                            <span class="brand-text">CIA</span>
-                            <span class="brand-subtitle">Invest</span>
-                        </div>
+
                         <h2 class="login-title">Connexion</h2>
                         <p class="login-subtitle">Accédez à votre espace membre</p>
                     </div>
@@ -91,9 +88,9 @@ include 'partials/header.php';
                         <div class="text-center mt-4">
                             <p class="mb-0">Vous n'avez pas de compte ?</p>
                             <div class="register-links mt-2">
-                                <a href="devenir-membre.html" class="btn btn-link">Devenir membre</a>
+                                <a href="devenir-membre.php" class="btn btn-link">Devenir membre</a>
                                 <span class="text-muted">|</span>
-                                <a href="devenir-investisseur.html" class="btn btn-link">Devenir investisseur</a>
+                                <a href="devenir-investisseur.php" class="btn btn-link">Devenir investisseur</a>
                             </div>
                         </div>
                     </form>
@@ -140,9 +137,9 @@ include 'partials/header.php';
             <div class="col-lg-2 col-md-6">
                 <h4 class="footer-title">Espace membre</h4>
                 <ul class="footer-links">
-                    <li><a href="devenir-membre.html">Devenir membre</a></li>
-                    <li><a href="devenir-investisseur.html">Devenir investisseur</a></li>
-                    <li><a href="connexion.html">Se connecter</a></li>
+                    <li><a href="devenir-membre.php">Devenir membre</a></li>
+                    <li><a href="devenir-investisseur.php">Devenir investisseur</a></li>
+                    <li><a href="connexion.php">Se connecter</a></li>
                 </ul>
             </div>
 

@@ -22,6 +22,10 @@ include 'partials/header.php';
     <div class="container">
         <div class="row align-items-center min-vh-100">
             <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                <br />
+                <br />
+                <br />
+
                 <span class="hero-badge">Devenir Investisseur</span>
                 <h1 class="hero-title">Investissez dans l'avenir de l'Afrique</h1>
                 <p class="hero-description">Rejoignez notre réseau d'investisseurs et participez au financement de projets innovants et porteurs de croissance sur le continent africain. Choisissez le type d'investissement qui correspond à votre profil.</p>
@@ -238,9 +242,9 @@ include 'partials/header.php';
             <div class="col-lg-2 col-md-6">
                 <h4 class="footer-title">Espace membre</h4>
                 <ul class="footer-links">
-                    <li><a href="devenir-membre.html">Devenir membre</a></li>
-                    <li><a href="devenir-investisseur.html">Devenir investisseur</a></li>
-                    <li><a href="connexion.html">Se connecter</a></li>
+                    <li><a href="devenir-membre.php">Devenir membre</a></li>
+                    <li><a href="devenir-investisseur.php">Devenir investisseur</a></li>
+                    <li><a href="connexion.php">Se connecter</a></li>
                 </ul>
             </div>
 

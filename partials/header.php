@@ -83,12 +83,13 @@
 
                     <!-- Menu déroulant Espace membre -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle <?php echo (in_array($current_page, ['devenir-membre', 'devenir-investisseur', 'inscription', 'inscription-investisseur'])) ? 'active' : ''; ?>" href="#" id="espaceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle <?php echo (in_array($current_page, ['devenir-membre', 'devenir-investisseur', 'devenir-partenaire', 'inscription', 'inscription-investisseur'])) ? 'active' : ''; ?>" href="#" id="espaceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Espace membre
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="espaceDropdown">
-                            <li><a class="dropdown-item <?php echo ($current_page == 'devenir-membre') ? 'active' : ''; ?>" href="devenir-membre.php">Devenir membre</a></li>
-                            <li><a class="dropdown-item <?php echo ($current_page == 'devenir-investisseur') ? 'active' : ''; ?>" href="devenir-investisseur.php">Devenir investisseur</a></li>
+                            <li><a class="dropdown-item <?php echo ($current_page == 'devenir-membre') ? 'active' : ''; ?>" href="devenir-membre.php">Porteur de projet</a></li>
+                            <li><a class="dropdown-item <?php echo ($current_page == 'devenir-investisseur') ? 'active' : ''; ?>" href="devenir-investisseur.php">Investissez</a></li>
+                            <li><a class="dropdown-item <?php echo ($current_page == 'devenir-partenaire') ? 'active' : ''; ?>" href="devenir-partenaire.php">Devenir partenaire</a></li>
                         </ul>
                     </li>
 

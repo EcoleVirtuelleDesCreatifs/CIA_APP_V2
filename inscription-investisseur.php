@@ -20,7 +20,7 @@ $config = [
     'obligataire' => [
         'badge_icon' => 'bi-shield-check',
         'badge_text' => 'Investissement Sécurisé',
-        'title' => 'Investissement Obligataire : Sécurité & Rendement Fixe',
+        'title' => 'Investissement Obligataire',
         'subtitle' => 'Générez des revenus stables et prévisibles avec un risque maîtrisé',
         'benefits' => [
             ['icon' => 'bi-shield-fill-check', 'title' => 'Sécurité Maximale', 'desc' => 'Capital protégé avec garanties'],
@@ -32,7 +32,7 @@ $config = [
     'actionnaire' => [
         'badge_icon' => 'bi-graph-up-arrow',
         'badge_text' => 'Croissance Élevée',
-        'title' => 'Investissement Actionnaire : Croissance & Participation',
+        'title' => 'Investissement Actionnaire',
         'subtitle' => 'Participez au capital et bénéficiez d’un potentiel de croissance exceptionnel',
         'benefits' => [
             ['icon' => 'bi-rocket-takeoff', 'title' => 'Potentiel de Croissance', 'desc' => 'Gains illimités selon la performance'],

@@ -20,7 +20,7 @@ $config = [
     'silver' => [
         'badge_icon' => 'bi-star',
         'badge_text' => 'Formule Essentielle',
-        'title' => 'Silver : Votre Entrée dans l’Écosystème',
+        'title' => 'Silver',
         'subtitle' => 'Commencez votre aventure entrepreneuriale avec les outils essentiels pour réussir',
         'benefits' => [
             ['icon' => 'bi-rocket-takeoff', 'title' => 'Lancez Votre Projet', 'desc' => 'Publiez votre premier projet et connectez-vous avec des investisseurs'],
@@ -33,7 +33,7 @@ $config = [
     'gold' => [
         'badge_icon' => 'bi-star-fill',
         'badge_text' => 'Formule Populaire',
-        'title' => 'Gold : Accélérez Votre Croissance',
+        'title' => 'Gold',
         'subtitle' => 'Le choix des entrepreneurs ambitieux qui veulent maximiser leurs opportunités',
         'benefits' => [
             ['icon' => 'bi-lightning-charge', 'title' => 'Double Visibilité', 'desc' => 'Publiez 2 projets et multipliez vos chances de financement'],
@@ -46,7 +46,7 @@ $config = [
     'platinum' => [
         'badge_icon' => 'bi-gem',
         'badge_text' => 'Formule Élite',
-        'title' => 'Platinum : L’Excellence Sans Compromis',
+        'title' => 'Platinum',
         'subtitle' => 'La formule ultime pour les leaders qui visent le sommet et veulent tout',
         'benefits' => [
             ['icon' => 'bi-trophy', 'title' => 'Maximum d’Impact', 'desc' => '3 projets publiés pour maximiser votre présence et opportunités'],
