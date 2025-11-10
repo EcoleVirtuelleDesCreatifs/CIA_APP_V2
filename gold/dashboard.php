@@ -320,6 +320,7 @@ $profile_completion = 95;
             background: linear-gradient(135deg, var(--primary), var(--primary-light)) border-box;
             -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
             -webkit-mask-composite: xor;
+            mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
             mask-composite: exclude;
             animation: rotate 3s linear infinite;
         }
@@ -865,6 +866,18 @@ $profile_completion = 95;
                     <i class="bi bi-person-fill"></i>
                     <span>Mon Profil</span>
                 </a>
+                <a href="modifier-profil.php" class="menu-item blue">
+                    <i class="bi bi-pencil-square"></i>
+                    <span>Modifier le profil</span>
+                </a>
+                <a href="securite.php" class="menu-item purple">
+                    <i class="bi bi-shield-lock-fill"></i>
+                    <span>Sécurité</span>
+                </a>
+                <a href="notifications.php" class="menu-item orange">
+                    <i class="bi bi-bell-fill"></i>
+                    <span>Notifications</span>
+                </a>
                 <a href="parametres.php" class="menu-item pink">
                     <i class="bi bi-gear-fill"></i>
                     <span>Paramètres</span>
@@ -951,10 +964,14 @@ $profile_completion = 95;
                         </div>
                     </div>
                     
-                    <button class="btn btn-primary-modern w-100 mt-4">
+                    <a href="profil.php" class="btn btn-primary-modern w-100 mt-4" style="text-decoration: none; justify-content: center;">
+                        <i class="bi bi-eye"></i>
+                        Voir le Profil Complet
+                    </a>
+                    <a href="modifier-profil.php" class="btn btn-primary-modern w-100 mt-3" style="text-decoration: none; justify-content: center; background: linear-gradient(135deg, #6366f1, #8b5cf6);">
                         <i class="bi bi-pencil"></i>
-                        Éditer le Profil
-                    </button>
+                        Modifier le Profil
+                    </a>
                 </div>
             </div>
             
@@ -1015,6 +1032,58 @@ $profile_completion = 95;
                                 <i class="bi bi-arrow-down"></i>
                                 <span>-20% vs hier</span>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Access Card -->
+                <div class="activity-card mb-4">
+                    <h3 class="activity-title">🚀 Accès Rapide - Gestion du Profil</h3>
+                    
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <a href="profil.php" class="activity-item" style="text-decoration: none; display: flex; cursor: pointer; border: 2px solid rgba(25, 135, 84, 0.2); border-radius: 16px;">
+                                <div class="activity-icon" style="background: linear-gradient(135deg, #10b981, #059669); color: white;">
+                                    <i class="bi bi-person-circle"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h5 style="color: #0a0e27;">Profil Complet</h5>
+                                    <p style="color: #64748b;">Voir votre profil détaillé</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="modifier-profil.php" class="activity-item" style="text-decoration: none; display: flex; cursor: pointer; border: 2px solid rgba(59, 130, 246, 0.2); border-radius: 16px;">
+                                <div class="activity-icon" style="background: linear-gradient(135deg, #3b82f6, #2563eb); color: white;">
+                                    <i class="bi bi-pencil-square"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h5 style="color: #0a0e27;">Modifier le Profil</h5>
+                                    <p style="color: #64748b;">Mettre à jour vos infos</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="securite.php" class="activity-item" style="text-decoration: none; display: flex; cursor: pointer; border: 2px solid rgba(139, 92, 246, 0.2); border-radius: 16px;">
+                                <div class="activity-icon" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: white;">
+                                    <i class="bi bi-shield-lock"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h5 style="color: #0a0e27;">Sécurité</h5>
+                                    <p style="color: #64748b;">Mot de passe & 2FA</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="notifications.php" class="activity-item" style="text-decoration: none; display: flex; cursor: pointer; border: 2px solid rgba(245, 158, 11, 0.2); border-radius: 16px;">
+                                <div class="activity-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706); color: white;">
+                                    <i class="bi bi-bell"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h5 style="color: #0a0e27;">Notifications</h5>
+                                    <p style="color: #64748b;">Préférences & alertes</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

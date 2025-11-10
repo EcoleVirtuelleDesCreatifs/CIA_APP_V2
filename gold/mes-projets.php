@@ -556,15 +556,15 @@ $user_plan = 'Gold';
                     </div>
                     
                     <div class="project-actions">
-                        <a href="#" class="btn-modern btn-primary">
+                        <a href="projet-details.php?id=1" class="btn-modern btn-primary">
                             <i class="bi bi-eye"></i>
                             Voir les détails
                         </a>
-                        <a href="#" class="btn-modern btn-outline">
+                        <a href="creer-projet.php?edit=1" class="btn-modern btn-outline">
                             <i class="bi bi-pencil"></i>
                             Modifier
                         </a>
-                        <a href="#" class="btn-modern btn-outline">
+                        <a href="#" class="btn-modern btn-outline" onclick="alert('Lien de partage copié!')">
                             <i class="bi bi-share"></i>
                             Partager
                         </a>
@@ -609,15 +609,15 @@ $user_plan = 'Gold';
                     </div>
                     
                     <div class="project-actions">
-                        <a href="#" class="btn-modern btn-primary">
+                        <a href="projet-details.php?id=2" class="btn-modern btn-primary">
                             <i class="bi bi-eye"></i>
                             Voir les détails
                         </a>
-                        <a href="#" class="btn-modern btn-outline">
+                        <a href="creer-projet.php?edit=2" class="btn-modern btn-outline">
                             <i class="bi bi-pencil"></i>
                             Modifier
                         </a>
-                        <a href="#" class="btn-modern btn-outline">
+                        <a href="#" class="btn-modern btn-outline" onclick="alert('Lien de partage copié!')">
                             <i class="bi bi-share"></i>
                             Partager
                         </a>
@@ -627,9 +627,9 @@ $user_plan = 'Gold';
         </div>
     </div>
     
-    <button class="add-project-btn" onclick="alert('Fonctionnalité d\'ajout de projet à venir!')">
+    <a href="creer-projet.php" class="add-project-btn" style="text-decoration: none; display: flex; align-items: center; justify-content: center;">
         <i class="bi bi-plus-lg"></i>
-    </button>
+    </a>
     
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -512,8 +512,16 @@ $user_plan = 'Gold';
     
     <div class="dashboard-container">
         <div class="page-header">
-            <h1 class="page-title">📅 Événements</h1>
-            <p class="page-subtitle">Découvrez et participez aux événements de l'écosystème</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h1 class="page-title">📅 Événements</h1>
+                    <p class="page-subtitle">Découvrez et participez aux événements de l'écosystème</p>
+                </div>
+                <a href="calendrier-evenements.php" class="btn-modern btn-primary" style="color: white; text-decoration: none;">
+                    <i class="bi bi-calendar3"></i>
+                    Voir le Calendrier
+                </a>
+            </div>
         </div>
         
         <div class="row">
@@ -553,11 +561,11 @@ $user_plan = 'Gold';
                         </div>
                         
                         <div class="event-actions">
-                            <a href="#" class="btn-modern btn-primary">
+                            <a href="evenement-details.php?id=1" class="btn-modern btn-primary">
                                 <i class="bi bi-calendar-check"></i>
                                 S'inscrire
                             </a>
-                            <a href="#" class="btn-modern btn-outline">
+                            <a href="evenement-details.php?id=1" class="btn-modern btn-outline">
                                 <i class="bi bi-info-circle"></i>
                                 Détails
                             </a>
@@ -602,11 +610,11 @@ $user_plan = 'Gold';
                         </div>
                         
                         <div class="event-actions">
-                            <a href="#" class="btn-modern btn-primary">
+                            <a href="evenement-details.php?id=2" class="btn-modern btn-primary">
                                 <i class="bi bi-calendar-check"></i>
                                 S'inscrire
                             </a>
-                            <a href="#" class="btn-modern btn-outline">
+                            <a href="evenement-details.php?id=2" class="btn-modern btn-outline">
                                 <i class="bi bi-info-circle"></i>
                                 Détails
                             </a>
@@ -651,11 +659,11 @@ $user_plan = 'Gold';
                         </div>
                         
                         <div class="event-actions">
-                            <a href="#" class="btn-modern btn-primary">
+                            <a href="evenement-details.php?id=3" class="btn-modern btn-primary">
                                 <i class="bi bi-calendar-check"></i>
                                 S'inscrire
                             </a>
-                            <a href="#" class="btn-modern btn-outline">
+                            <a href="evenement-details.php?id=3" class="btn-modern btn-outline">
                                 <i class="bi bi-info-circle"></i>
                                 Détails
                             </a>
@@ -700,11 +708,11 @@ $user_plan = 'Gold';
                         </div>
                         
                         <div class="event-actions">
-                            <a href="#" class="btn-modern btn-primary">
+                            <a href="evenement-details.php?id=4" class="btn-modern btn-primary">
                                 <i class="bi bi-calendar-check"></i>
                                 S'inscrire
                             </a>
-                            <a href="#" class="btn-modern btn-outline">
+                            <a href="evenement-details.php?id=4" class="btn-modern btn-outline">
                                 <i class="bi bi-info-circle"></i>
                                 Détails
                             </a>
